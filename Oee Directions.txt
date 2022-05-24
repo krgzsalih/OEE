@@ -1,0 +1,7 @@
+- To open the react app, 
+  - go to"oeeoperator" folder; 
+	run the file with "npm start" via vsCode.
+  - at the same folder go to "backend" folder and run "node index.js" command.
+
+- go back and find "oeeUretim" folder and run "node index.js" command.
+- go back again and go to "oeeUretimYaz" folder. Then run "node uretimYaz.js" command.

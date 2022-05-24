@@ -1,0 +1,531 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(131, 117, 117);
+  width: 100vw;
+  height: 100vh;
+}
+.app {
+  text-align: center;
+}
+
+.ui.main.container {
+  margin-top: 4em;
+}
+
+.App-header {
+  background-color: rgb(131, 117, 117);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header button {
+  width: 100%;
+  margin-bottom: 10px !important;
+}
+.fabrika-header {
+  background-color: rgb(131, 117, 117);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.ma-header {
+  background-color: black !important;
+  height: 70px !important;
+  width: 100vw;
+}
+.fabrika-form button {
+  width: 300px !important;
+  height: 100px !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.dropdown-menu {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  margin-right: -20px !important;
+}
+.dropdown-menu2 {
+  margin-left: 10px !important;
+  margin-right: -20px !important;
+}
+
+.operator {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);*/
+  margin: 25px;
+  margin-right: 50px;
+}
+
+.makineNo {
+  background-color: rgb(82, 90, 82);
+  height: 850px;
+  width: 200px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10%;
+  font-size: calc(10px + 6vmin);
+  text-align: center;
+  align-items: center;
+  direction: inherit;
+}
+
+.background-red {
+  background-color: red;
+}
+
+.background-green {
+  background-color: green;
+}
+
+.makine {
+  margin-top: 400px !important;
+  color: #fff;
+  -webkit-transform: rotate(270deg);
+  /*-moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  */
+}
+.left-column {
+  width: 100%; /*700px*/
+  height: 100%;
+
+  margin: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  width: 100%; /*700px*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 25px;
+}
+
+.left-column1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 17px !important;
+}
+.left-column2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-column1-b {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.form-uretimBilgileri input {
+  margin-top: 5px !important;
+  margin-bottom: 8px !important;
+}
+
+.montaj-form {
+  width: 100vw;
+  height: 100vh !important;
+  background-color: rgb(131, 117, 117);
+}
+.talimat-btn {
+  width: 100%;
+  height: 100%;
+  font-size: 30px !important;
+  text-align: left !important;
+  padding-left: 10px !important;
+  color: burlywood !important;
+}
+.ui.card {
+  width: 210px !important;
+  height: auto !important;
+}
+
+.left-buttons {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  margin-bottom: -20px !important;
+  font-size: 25px !important;
+
+  background-color: rgb(214, 166, 174) !important;
+}
+
+.left-buttons2 {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  margin-bottom: -20px !important;
+  font-size: 25px !important;
+
+  background-color: greenyellow !important;
+}
+.left-buttons3 {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  font-size: 25px !important;
+
+  background-color: rgb(165, 164, 164) !important;
+}
+
+.operator-cikis {
+  margin-top: 10px !important;
+  margin-left: 620px !important;
+  width: 150px;
+  float: right !important;
+}
+
+.fbrk-tntm-cikis {
+  margin-top: 30px !important;
+  height: 50px !important;
+  width: 150px !important;
+}
+
+.right-column1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.right-column2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.right-column-first {
+  width: 100%;
+  height: 60px;
+  text-align: left !important;
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+  display: flex !important;
+}
+
+.right-buttons {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  font-size: 25px !important;
+
+  background-color: rgb(29, 190, 35) !important;
+}
+
+.right-buttons2 {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  margin-bottom: -20px !important;
+  font-size: 25px !important;
+
+  background-color: rgb(235, 212, 43) !important;
+}
+.right-buttons3 {
+  height: 120px !important;
+  width: 100%;
+  margin-top: 10px !important;
+  font-size: 25px !important;
+
+  background-color: rgb(69, 96, 194) !important;
+}
+
+.ui.card.progress {
+  width: 100% !important;
+  height: 100% !important;
+  color: black !important;
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: rgb(175, 155, 155) !important;
+  margin-bottom: 10px !important;
+}
+
+.progress-bar {
+  margin: auto !important;
+}
+
+.CircularProgressbar {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+}
+
+.left-progress {
+  height: 100%;
+  width: 100%;
+  font-size: 25px !important;
+  text-align: left !important;
+  margin-left: 25px;
+  margin-top: 55px;
+}
+
+.popUp-ici-button {
+  margin: 10px !important;
+  width: 250px !important;
+  height: 50px !important;
+  color: rgb(150, 49, 49) !important;
+}
+
+.popUp-title {
+  margin-bottom: 20px;
+}
+
+.durusNedeniOnayPenceresi {
+  display: flex;
+  flex-direction: row;
+  width: auto !important;
+  height: 120px !important;
+}
+.onayButtons {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: 16px !important;
+  width: 150px !important;
+}
+
+.fabrika-gir {
+  background-color: rgb(29, 190, 35) !important;
+}
+
+.hat-gir {
+  background-color: rgb(235, 212, 43) !important;
+}
+
+.makine-gir {
+  background-color: rgb(165, 164, 164) !important;
+  width: 100px !important;
+}
+
+.tüketim-gir {
+  background-color: rgb(69, 96, 194) !important;
+}
+
+.root {
+  flex-grow: 1;
+}
+
+.paper {
+  text-align: center;
+}
+
+.gaugesClass {
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.gaugesClass2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 20px !important;
+}
+.gauge-chart-card {
+  background-color: #484141 !important;
+
+  margin-left: 25px !important;
+  margin-top: 10px !important;
+}
+
+.pie-chart-card {
+}
+
+.recharts-responsive-container {
+  width: auto !important;
+  margin: 0px !important;
+  margin-top: -10px !important;
+}
+
+.list-card {
+  display: flex;
+  background-color: #484141 !important;
+  height: 320px !important;
+  width: 470px;
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+
+  margin-top: 20px !important;
+  font-size: 15px !important;
+}
+
+.ui.card.pie-chart-card {
+  width: 470px !important;
+  height: 320px !important;
+  margin-left: 10 !important;
+  margin-top: 20px !important;
+  background-color: #484141 !important;
+}
+.ui.card.gauge-chart-card {
+  width: 470px !important;
+  height: 320px !important;
+  margin-left: 10 !important;
+  margin-top: 20px !important;
+  background-color: #484141 !important;
+}
+.ui.card.list-card {
+  width: 470px !important;
+  height: 320px !important;
+  margin-left: 10 !important;
+  margin-top: 20px !important;
+  background-color: #484141 !important;
+  color: white !important;
+}
+
+.ui.card.oee-grafics2 {
+  width: 970px !important;
+  height: 320px !important;
+  margin-top: 20px !important;
+  margin-left: 25px !important;
+  color: rgb(208, 208, 208);
+  background-color: #353030 !important;
+}
+
+.oee-grafics {
+  margin-left: 25px !important;
+  margin-top: 20px !important;
+  width: 970px !important;
+  height: 300px !important;
+  color: rgb(208, 208, 208);
+  background-color: #353030 !important;
+}
+.pie-title {
+  background-color: #525458;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(204, 93, 93);
+}
+
+.list-title {
+  background-color: #525458;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(204, 93, 93);
+}
+
+/*
+.title1{
+  background-color: #525458;  
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: rgb(204, 93, 93);
+}*/
+
+/*
+.pie-chart{
+  background-color: #484141;   
+  align-items:center;
+  margin-left: 25px;
+  padding-top: 20px;
+  margin-top: 30px;
+}*/
+
+.en1 {
+  flex: 1;
+  margin: 10px;
+  margin-top: 20px !important;
+}
+.en2 {
+  flex: 2;
+  padding: 10px;
+  margin: 10px;
+}
+
+.durusDiv {
+  display: flex;
+}
+
+.dropdown-menu {
+  height: 70px;
+  overflow-y: scroll;
+}
+
+#refPop {
+  position: relative !important;
+  top: 50% !important;
+  left: 60% !important;
+  width: 100vw !important;
+  height: 10 !important;
+  margin-left: 50vh !important;
+  margin-top: 30% !important;
+}
+
+#referansBut {
+  margin-top: -10px !important;
+}
+
+.classes-root {
+  width: "100%";
+  height: "100%";
+  max-width: "100%";
+  color: "white";
+  background-color: "#484141";
+}
+
+/* ALARMLAR CLASS I */
+.MuiTypography-body1{
+  font-size: 1.3rem !important;
+}
+
+.isEmriForm.form .field>label {
+  color: rgb(228, 186, 186) !important;
+  font-size: 1.2em !important;
+  margin: 0.7em !important;
+}
+
+.isEmriButon {
+  font-size: 1.2em !important;
+  width: 250px !important;
+  height: 40px !important;
+}
+
+.Toastify__toast {
+  position: relative;
+  min-height: 100px !important;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%), 0 2px 15px 0 rgb(0 0 0 / 5%);
+  display: flex;
+  justify-content: space-between;
+  max-height: 800px;
+  overflow: hidden;
+  font-family: sans-serif;
+  cursor: pointer;
+  direction: ltr;
+}

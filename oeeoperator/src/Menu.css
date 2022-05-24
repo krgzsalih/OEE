@@ -1,0 +1,47 @@
+#flyoutMenu {
+    width: 800px;
+    height: 100vh;
+    background-color: rgba(29, 24, 24, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform .3s
+                cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 1000;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+   
+  #flyoutMenu.hide {
+    transform: translate3d(-100vw, 0, 0);
+  }
+   
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  #flyoutMenu.sakla {
+    transform: translate3d(-100vh, 0, 0);
+  }
+   
+  #flyoutMenu.göster {
+    transform: translate3d(0vh, 0, 0);
+    overflow: hidden;
+  }
+   
+  #flyoutMenu h2 a {
+    color: rgb(146, 140, 140);
+    margin-left: 15px;
+    text-decoration: none;
+  }
+   
+  #flyoutMenu h2 a:hover {
+    text-decoration: underline;
+  }
+
+  .x{
+    background-color: rgb(133, 129, 129); 
+    margin-left: 15px;
+  }
